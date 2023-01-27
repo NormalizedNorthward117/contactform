@@ -1,0 +1,42 @@
+body {                                      /*全体のフォント指定*/
+    font-family: "Hiragino Kaku Gothic Pron","メイリオ",sans-serif;
+}
+
+h1 {                                        /*見出しの設定*/
+    margin:             0 auto;             /*これ単体では中央揃えにならない*/
+    margin-top:         30px;
+    margin-bottom:      20px;
+    border-left:        4px red solid;
+    background-color:   #f1f1f1;
+    padding:            5px 0px 5px 15px;   /*↑とこれを組み合わせることで、フォームと一致*/
+    width:              500px;
+    font-size:          20px;
+}
+
+form {                                      /*フォーム枠の設定*/
+    margin:             0 auto;
+    border:             3px #ebebeb solid;
+    border-radius:      10px;               /*ボックスの角を丸める*/
+    width:              500px;
+    background-color:   #fbfbfb;
+}
+
+form div{                                   /*入力欄それぞれの間隔*/
+    padding: 15px;
+}
+
+.text, textarea, .dropdown {                /*フォームの入力欄すべての設定*/
+    border:             1px solid #dfdfdf;
+    padding:            5px;
+    color:              #999;
+    background-color:   #fff;
+}
+
+.submit {                                   /*入力情報送信ボタンの設定*/
+    border:             1px solid lightgray;
+    border-bottom:      2px gray solid;
+    border-radius:      5px;
+    padding:            4px 10px;
+    color:              white;
+    background-color:   #bfbfbf;
+}
